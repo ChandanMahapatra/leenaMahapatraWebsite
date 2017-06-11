@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+        
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project3 Page - Chandan Mahapatra</title>
+    
+    
+    <!-- fancyBox main CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="css/main.css" rel="stylesheet">
+    
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    
+    <!-- fancyBox main JS file -->
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</head>
+
+<body id="page-top">
+    
+    <nav class="desktopMenu">
+      <div id="sidebar-logo">
+        <img src="media/Assests/Logo.png" alt="Logo">
+      </div>
+      <a href="index.html" class="page-title">Leena Mahapatra</a>
+      <ul class="desktopOption navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artforkids.html">Art for Kids</a></li>
+        <li><a href="#page-top" class="active">Contact</a></li>
+        <li><a href="resources.html">Resources</a></li>  
+        <li><a href="auth/protected.html">Protected Page</a></li>
+      </ul>
+    </nav>
+    
+        <nav class="mobileMenu">
+        <button>Toggle</button>
+        <div>
+        <ul class="mobileOption navbar">
+          <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="artforkids.html">Art for Kids</a></li>
+        <li><a href="#page-top" class="active">Contact</a></li>
+        <li><a href="resources.html">Resources</a></li>  
+        <li><a href="auth/protected.html">Protected Page</a></li>
+        </ul>
+        </div>
+    </nav>
+
+<div id="wrapper">
+    
+  <header class="reveal">
+      <div class="container-fluid">
+        <div class="row">
+            <div class='col-md-offset-1 col-md-10'>
+               <!--#include file="header.shtml"--> 
+            </div>
+        </div>    
+      </div>  
+  </header>
+  
+  <section id="contact-page" class="reveal">
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-8">
+                <div id="page-icon">
+                    <img src="media/Assests/Mail.png" alt="Contact Icon">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+                <h2 class="section-heading">Contact</h2>
+             </div>
+          </div>
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+                <p>Feel free to contact me if you are interested in buying a painting, for commission work or if you want to enroll in an art class.</p>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col-md-offset-1 col-md-10">
+         <form class="formStyle" method="post" action="formmail.php">
+        
+          <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT,AUTH_TYPE,REMOTE_USER" />
+        
+          <input type="hidden" name="recipients" value="cm6463@rit.edu" />
+        
+          <input type="hidden" name="subject" value="RIT Project3 Contact Form" />
+        
+        <input type="hidden" name="mail_options" value="Exclude=email;realname" />
+
+        <div id="formName">
+            <label>Enter Name: </label>
+            <input type="text" name="Name" placeholder="John Doe" required>					
+        </div>
+
+        <div id="formEmail">
+            <label>Enter Email: </label>
+            <input type="email" name="Email" placeholder="johndoe@example.com" required>
+        </div>
+
+        <div id="formInterest">
+            <label>Are you interested in : </label>
+            <input class="select" type="radio" name="BuyPainting" value="Buying" checked><label> Buying a painting
+            </label>
+            <input class="select" type="radio" name="BuyPainting" value="Commission">
+             <label>Commission work</label>
+            <input class="select" type="radio" name="BuyPainting" value="ArtClass"><label>Art Class</label>
+        </div>
+
+        <div id="formMessage">
+            <label>Enter Message: </label>        <textarea name="Message" placeholder="Hi! Type your message here" rows="5" cols="40" required></textarea>
+        </div>	
+
+        <div id="submitForm">
+            <input type="submit" value="Submit">
+        </div>		
+        </form> 
+        </div>
+    </div>    
+          
+        <div class="row">
+            <div class=' col-md-offset-1 col-md-3'>
+                <div class="button1">
+                    <a href="index.html" role="button">Back to Home</a> 
+                </div> 
+            </div>  
+            <div class=' col-md-offset-1 col-md-4'>
+                <div class="button1">
+                    <a href="gallery.html" role="button">Explore Digital Gallery</a> 
+                </div> 
+            </div>
+        </div> 
+      </div>      
+  </section>
+  
+  <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class='col-md-offset-1 col-md-10'>
+                <p>© Chandan Mahapatra 2016, all rights reserved</p>
+                <p>Last Updated: <!--#flastmod file="contact.html"--></p>
+            </div>    
+        </div>
+    </div>    
+  </footer>
+    
+</div>    
+    
+</body>   
+    
+</html>    
