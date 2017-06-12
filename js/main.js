@@ -57,24 +57,6 @@ $(document).ready(function() {
 				}
 			});
 
-            $("#painting-section").on("click",function(e){
-                
-                $("#gallery-craft").hide();
-                $("#gallery-painting").fadeIn();
-                
-                $("#option-craft").removeClass("options");
-                $("#option-painting").addClass("options");
-                
-            });
-            
-             $("#craft-section").on("click",function(e){
-                
-                $("#gallery-painting").hide();
-                $("#gallery-craft").fadeIn();
-                
-                $("#option-painting").removeClass("options");
-                $("#option-craft").addClass("options");
-            });
 
 });
 

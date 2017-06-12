@@ -16,7 +16,7 @@ nav {
 }
 
 #sidebar-logo img {
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -90,15 +90,17 @@ nav .page-title a:active {
 }
 
 #main-header {
+    margin-top: 40px;
    font-family: 'Lobster';
-   font-size: 4em;
+   font-size: 3.5em;
    color: #A568F5;
 }
 
 #sub-header {
-  font-size: 3.2em;
+  margin-top: 20px;
+  font-size: 2.7em;
   color:  #EA6993;
-    margin-bottom: 70px;
+  margin-bottom: 60px;
 }
 
 /* THE CAROUSEL */
@@ -128,7 +130,7 @@ nav .page-title a:active {
 
 
 #cover .button1{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 1.2em;
 }
 
@@ -163,7 +165,7 @@ nav .page-title a:active {
 .section-heading{
   display: inline-block;
   color: #EA6993;
-  font-size: 2.8em;
+  font-size: 2.2em;
   border-bottom: 3px solid #A568F5;
 }
 
@@ -189,9 +191,10 @@ nav .page-title a:active {
 #gallery-images1 img{
   width: 60%;
   margin-top: 20px;
-  border: 3px solid #EA6993;
+  border: 1.5px solid #EA6993;
   padding: 8px;
   border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 #gallery-images1 img:hover{
@@ -247,6 +250,7 @@ footer {
 
 #page-icon{
     max-width: 100%;
+    margin-left: -8px;
 }
 
 #page-icon img{
@@ -283,63 +287,11 @@ footer {
   color: #49484E;
 }
 
+
 #contact-page .button1{
     margin-top: 40px;
+    margin-bottom: 20px;
     font-size: 1.2em;
-}
-
-.formStyle{
-    padding: 20px;
-    margin-bottom: 10px;
-}
-
-#formName{
-    margin-bottom: 10px;
-}
-#formName input{
-    margin-left: 10px;
-}
-
-#formEmail{
-    margin-bottom: 10px;
-}
-#formEmail input{
-    margin-left: 10px;
-}
-
-#formInterest{
-    margin-bottom: 10px;
-}
-
-#formInterest input{
-    margin-left: 10px;
-    background-color: #EA6993;
-}
-
-#formMessage{
-    margin-top: 20px;
-}
-
-#formMessage textarea{
-    margin-top: 5px;
-    display: block;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-#submitForm{
-  margin-top: 15px;
-}
-
-input[type=submit] {
-    padding: 15px; 
-    color: #EA6993;
-    background:white;
-    border: 3px solid #EA6993;
-    font-size: 1.2em;
-    cursor:pointer;
-    cursor:pointer;
-    border-radius: 10px; 
 }
 
 /* Gallery Page */
@@ -347,8 +299,19 @@ input[type=submit] {
     margin-top: 30px;
 }
 
+.gallery-paintings {
+    padding: 10px;
+}
+
+.thumbnail{
+    padding: 10px;
+    border: 1.5px solid #EA6993;
+    margin: 15px;
+}
+
 #gallery-page h3{
      color: #49484E;
+    font-size: 1.6em;
 }
 
 #gallery-page p{
@@ -430,120 +393,6 @@ input[type=submit] {
 #gallery-options li a:active {
      color: #A568F5;
 }
-
-/* Art for Kids Page */
-#aor-page{
-    margin-top: 30px;
-}
-
-#aor-page h3{
-     color: #49484E;
-}
-
-#aor-page p{
-  margin-top: 10px;
-  font-size: 1.1em;
-  color: #49484E;
-}
-
-#gallery-aor{
-    margin-top: 40px;
-}
-
-#gallery-aor img:hover{
-    opacity: .5;
-}
-
-
-/* Error Page*/
-#error-page .button1{
-    margin-top: 30px;
-     margin-left: 10px;
-    font-size: 1.2em;
-}
-
-#error-page img{
-    width: 100px;
-    height: 100px;
-    margin-top: -15px;
-}
-
-/* Resource Page*/
-.resource-heading{
-     color: #EA6993;
-     display: inline-block;
-  color: #EA6993;
-  font-size: 1.8em;
-  border-bottom: 3px solid #A568F5;
-}
-
-
-#resources-page{
-    margin-top: 30px;
-}
-
-#resources-page p{
-  margin-top: 25px;
-  font-size: 1.2em;
-  color: #49484E;
-}
-
-#resources-page .button1{
-    margin-top: 20px;
-    font-size: 1.2em;
-}
-
-.resources-nav{
-    list-style: none;
-}
-
-.resources-nav span {
-  font-weight:  bold;
-  margin-top:  15px;
-    margin-left:  15px;
-  list-style: none;
-  font-size: 1em;
-  color:  #49484E;
-}
-
-.resources-nav li {
-  font-weight:  bold;
-  margin-top:  15px;
-  list-style: none;
-  font-size: 1.4em;
-  color: #EA6993;
-}
-
-
-.resources-nav li a:link {
-    color: #EA6993;
-    text-decoration: none;
-}
-
-.resources-nav li a:visited {
-    color: #EA6993;
-}
-
-.resources-nav li a:hover {
-    color: #A568F5;
-}
-		  
-.resources-nav li a:active {
-     color: #A568F5;
-}
-
-
-/* Protected Page*/
-#protected-page .button1{
-    margin-top: 30px;
-     margin-left: 10px;
-    font-size: 1.2em;
-}
-
-#protected-page img{
-    margin-top: 30px;
-}
-
 
 /* Responsive */
 
